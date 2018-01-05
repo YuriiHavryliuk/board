@@ -1,0 +1,15 @@
+@import '_normalize';
+@import '_variables';
+
+
+
+body{
+	max-width: 1366px;
+	margin: 0 auto;
+	color: white;
+}
+
+
+// Your styles:
+@import 'sections/_sidebar';
+

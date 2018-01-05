@@ -1,0 +1,67 @@
+.sidebar{
+	width: 314px;
+
+	& .wrapper{
+		width: 100%;
+	}
+
+	&__header{
+		height: 80px;
+		background-color: #253340;
+		padding-left: 30px;
+		padding-top: 25px;
+	}
+
+	&__title{
+		color: #ffffff;
+		font-family: $font-primary;
+		font-size: 37px;
+		letter-spacing: 2.52px;
+
+		&:first-letter{
+			color: #ed553c;
+		}
+	}
+
+	&__section1{
+		background-color: #486e91;
+		background-image: linear-gradient(to top, rgba(241, 97, 146, 0.28) 0%, rgba(239, 98, 146, 0.28) 1%, rgba(78, 198, 127, 0.28) 100%);
+		padding-left: 30px;
+		padding-top: 40px;
+		padding-bottom: 40px;
+
+		& .user-card{
+
+			&__photo{
+				border: 0.1px solid white;
+				border-radius: 60px;
+			}
+
+			&__titles{
+				display: inline-block;
+				transform: translateY(-50%);
+				margin-left: 15px;
+			}
+			&__name{
+				color: #eaebec;
+				font-size: 20px;
+			}
+			&__company{
+				font-size: 15px;
+			}
+		}
+	}
+	&__section2{
+		background-color: #253340;
+		padding: 30px;
+	}
+
+	& .section2__title{
+		font-size: 20px;
+		text-transform: uppercase;
+	}
+}
+
+
+
+

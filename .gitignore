@@ -1,0 +1,4 @@
+node_modules/
+package-lock.json
+app/index.html
+app/css/main.css
